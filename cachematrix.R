@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## these functions do lexical scooping based on week 3 of coursera 
+## R programming course
+## I hava only changed the sample in description of assignment 2
 
 ## Write a short comment describing this function
 
@@ -18,7 +19,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## this function in the first step get the inverve value if it exist
+## elst it print "getting cached data"
+## if the inverse of matrix have not been computed then it compute it 
+## with solve function
 
 cacheSolve <- function(x, ...) {
   m <- x$getinverse()
