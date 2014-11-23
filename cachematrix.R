@@ -2,7 +2,7 @@
 ## R programming course
 ## I hava only changed the sample in description of assignment 2
 
-## Write a short comment describing this function
+## this function is used for scooping the value of matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
